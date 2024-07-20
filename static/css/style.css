@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background:linear-gradient(to top left, #CDD2DA,#E3E7EB,#F1F2F5); 
+    height:100vh;
+    width:100vw;
+}
+.header{
+    display: flex;
+    position: relative;
+    top:20px; 
+    
+    
+}
+.header h3{
+    position: relative; 
+    left:50px;
+    font-size: 2rem; 
+
+}
+h3 span{
+    color:red;
+}
+.header nav ul{
+    display: flex;
+    position: relative;
+    top:20px;
+    left:100%;
+    width: 300px;
+    justify-content: space-around;
+
+}
+.header nav li{
+    list-style: none;
+    margin-left:30px;
+}
+.login-btn{
+    background-color: black;
+    color:white;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    top:30px;
+    right:100px;
+    border-radius:10px;
+}
+.login-btn a{
+    text-decoration: none;
+    color:white;
+    font-size: large;
+}
+
+/* Login Page CSS */
+
+.main-container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #b8c6b9;
+    justify-content: center;
+}
+.container-left{
+    background-color: #d7e6d4;
+    width: 615px;
+    height: 600px;
+    position: relative;
+    top:50px;
+    left:-50px;
+    box-shadow: 12px 12px 24px black;
+  
+}
+h3.login-header{
+    position: absolute;
+    top:50px;
+    left:70px;
+    font-size: 3rem;
+}
+h3.login-header span{
+    color:#05363c;
+   
+}
+.login-svg{
+    position: relative;
+    top:280px;
+    height: 150px;
+    border-radius:30px;
+    background-color: rgba(0,0,0,0.7); 
+
+}
+.img-three{
+    position: relative;
+    top:260px;
+    left:10px;
+    box-shadow: 6px 6px 16px black;
+}
+.img-two{
+   
+    position: relative;
+    top:140px;
+    box-shadow: 6px 6px 16px black;
+}
+.img-four{
+    background-color: #264653; 
+    position: relative;
+    top:130px;
+    left: -30px;
+    box-shadow: 6px 6px 16px black;
+
+}
+.img-one{
+    position: relative;
+    top:420px;
+    left:450px;
+    box-shadow: 6px 6px 16px black;
+}
+.text-container{
+    position: relative;
+    top:320px;
+    left:100px;
+    font-size: 30px;
+    
+}
+h5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.container-righthand{
+    position: relative;
+    top:50px;
+    left:-50px;
+    width:500px;
+    height: 600px;
+    background-color: white;
+    box-shadow: 12px 12px 24px black;
+
+}
+
+.wrapper{
+   position: relative;
+   top:120px;
+ 
+}
+h5{
+    position: relative;
+    top:-60px;
+    left:100px;
+}
+.left-text{
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top:-60px;
+    left:-40px;
+
+}
+form{
+    position: relative;
+    top:20px;
+    left:190px;
+}
+.wrapper-form{
+    margin-bottom: 30px;
+    position: relative;
+    top:-40px;
+    left:-90px;
+}
+input{
+    /* margin-bottom:40px; */
+    height: 40px;
+    width: 280px;
+    border-radius: 4px;
+    text-align: center;
+    /* position: relative;
+    top:-40px;
+    left:-100px; */
+
+}
+
+button.btn-login{
+    margin: 0px 30px;
+    height: 40px;
+    width: 280px;
+    background-color: #05363c;
+    border:none;
+    border-radius: 8px;
+    color:white;
+    font-size: 25px;
+    position: relative;
+    top:-40px;
+    left:-90px;
+}
+.footer-terms{
+    text-align: center;
+    position: relative;
+    top:-20px;
+    left:-160px;
+    color: #157AFE;
+}
+.fa-users, .fa-lock{
+    position: relative;
+    left:35px;
+    color:#264653;
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+.alert-danger{
+    position: absolute;
+    left:190px;
+    top:-40px;
+    width: 300px;
+    text-align: center;
+    height: 60px;
+    display: inline-block;
+}
+.error-warn{
+    color:red;
+    position: relative;
+    top:10px;
+    left:40px;
+    display: none;
+    
+}
+
+/*dashboard template code */
+
+.main-container-dashboard{
+    background-color: #B4C2C8;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    font-size: 40px;
+    
+}
+.main-static{
+    width: 250px;
+    height: 90vh;
+    position: relative;
+    top:30px;
+    left:20px;
+    text-align: center;
+    background-color: #F1F3F4;
+    border-radius: 5px;
+    
+   
+      
+}
+.main-logo{
+    position: relative;
+    top:25px;
+}
+.setting-part{
+    position: relative;
+    top:50px;
+
+}
+.setting-part ul li{
+    margin-top: 20px;
+    font-size: 1.7rem;
+    transition: all;
+    transition-duration: 600ms;
+    transition-delay: 15ms;
+    text-align: center;
+    list-style: none;
+   
+}
+.setting-part ul li a{
+    text-decoration: none;
+    color:black;
+   
+}
+.setting-part ul li:hover{
+    color:white;
+    transform: translate(10%,15%);
+}
+
+
+.main-dynamic{
+    height: 655px;
+    width: 1100px;
+    background-color: #FFFEFE;
+    position: relative;
+    top:30px;
+    left:50px;
+    border-radius: 8px;
+   
+}
+.menu-part{
+    position: relative;
+    top:20px;
+    left:-20px;
+    
+}
+.menu-title{
+    margin: 70px 0 30px -40px;
+    font-size: 27px;
+    
+}
+
+
+
+.fa-solid-style{
+    color:black;
+    position: relative;
+    right:30px;
+   
+}
+.fa-right-from-bracket{
+    position: relative;
+    left:-25px;
+} 
+
+.fa-solid-styles{
+    color:black;
+    position: relative;
+    right:10px;
+    
+   
+}
+.menu-list{
+    margin-top: -50px;
+}
+.dataset-header{
+    position: relative;
+    top:80px;
+    left:290px;
+}
+.dataset-header h2{
+    color:purple;
+    position: relative;
+    left:-150px;
+    letter-spacing: 4px;
+}
+.dataset-header h3{
+    margin-top: 30px;
+
+}
+.dataset-header h6{
+    margin-top: 10px;
+    margin-left: 60px;
+
+}
+.file-uploader{
+    height: 200px;
+    width: 400px;
+    box-shadow: 6px 6px 10px black;
+    border:2px dashed black;
+    position: relative;
+    top:40px;
+}
+input[type='file']{
+    position: relative;
+    top:50px;
+    left:-80px;
+    height: 50px;
+    font-size: 20px;
+    color:darkolivegreen;
+    
+
+}
+.dataset-button{
+    color:white;
+    height: 40px;
+    width: 250px;
+    background-color: #05363c;
+    position: relative;
+    top:150px;
+    left:-70px;
+    border-radius: 50px;
+    font-size: 30px;
+
+    
+}
+#predict-title{
+    color:purple;
+    font-size: 60px;
+    letter-spacing: 4px;
+    position: relative;
+    top:-0px;
+    left:90px;
+    margin-bottom: 20px;
+    
+}
+.ph-area{
+    font-size: 25px;
+    position: relative;
+    left:-200px;
+}
+.form-control{
+    width: 150px;
+    position: relative;
+    left:200px;
+}
+#item_fat_content{
+   height: 50px;
+   width: 200px;
+   font-size: 25px;
+   border-radius: 10px;
+   background-color: white;
+   text-align: center;
+}
+.fat-content{
+    position: relative;
+    top:-40px;
+    left:500px;
+}
+.outlet-size{
+    position: relative;
+    top:-100px;
+    left:500px;
+
+}
+.outlet-location{
+    position: relative;
+    top:-50px;
+    left:500px;
+
+}
+.outlet-type{
+    position: relative;
+    top:-10px;
+    left:500px;
+    
+
+}
+.accuracy-heading{
+    color:purple;
+    font-size: 60px;
+    letter-spacing: 4px;
+    position: relative;
+    top:-0px;
+    left:150px;
+    margin-bottom: 20px;
+
+}
+.linear-regression{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.heading{
+    font-size: 40px;
+    display: block;
+    text-decoration: underline;
+    color:blue;
+    text-align: center;
+}
+.container-totalsales{
+    height: 150px;
+    width: 300px;
+    border:2px solid purple;
+    border-radius: 20px;
+    border-right: 4px solid black;
+    padding: 30px;
+    margin: 30px 20px 0px 30px;
+}
+.container{
+    display: flex;
+    max-width: 100vw;
+}
+.chart-container{
+    position: relative;
+    top:-509px;
+
+}
+#myCharts{
+    position: relative;
+    top:-250px;
+    left:600px;
+}
+.visualization-title{
+    color:purple;
+    font-size: 60px;
+    letter-spacing: 4px;
+    position: relative;
+    top:50px;
+    text-align: center;
+  
+    margin-bottom: 20px;
+
+}
+.outlet-date{
+    position: relative;
+    top:40px;
+}
+.btn-primary{
+    background-color: #05363c;
+    color:white;
+    border:20px;
+    font-size:30px;
+    width: 200px;
+}
+.btn-danger{
+    background-color: peru;
+    color:white;
+    border:20px;
+    font-size:30px;
+    width: 200px;
+}
